@@ -30,7 +30,7 @@ response = RestClient.post 'https://www.googleapis.com/qpxExpress/v1/trips/searc
                    },
                    {
                      origin: "LAX",
-                     maxStops: 0, 
+                     maxStops: 0,
                      destination: "BOS",
                      date: "2017-11-14"
                    }
@@ -40,4 +40,4 @@ response = RestClient.post 'https://www.googleapis.com/qpxExpress/v1/trips/searc
              :content_type => :json
 a = response.body
 binding.pry
-puts response.body
+puts response.bodysdf
